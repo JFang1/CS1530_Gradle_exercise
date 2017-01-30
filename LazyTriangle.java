@@ -1,4 +1,8 @@
-import java.util.InputMismatchException;
+/**
+ *
+ * @author Ryo112358
+ *
+ */
 
 public class LazyTriangle {
 
@@ -9,7 +13,7 @@ public class LazyTriangle {
 		try {
 			number = Integer.parseInt(args[1]);
 
-		} catch (InputMismatchException ime) {
+		} catch (NumberFormatException nfe) {
 			System.exit(2);
 		}
 
